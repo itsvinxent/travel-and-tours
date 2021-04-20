@@ -52,7 +52,7 @@
         <section class="home" id="home">
             <div class="swiper-container gallery-top">
                 <div class="swiper-wrapper">
-                    <!--========== ISLANDS 1 ==========-->
+                    
                     <section class="islands swiper-slide">
                         <img src="assets/img/banner2.jpg" alt="" class="islands__banner">
 
@@ -65,7 +65,7 @@
                         </div>
                     </section>
         
-                    <!--========== ISLANDS 2 ==========-->
+                    
                     <section class="islands swiper-slide">
                         <img src="assets/img/manalmon.jpg" alt="" class="islands__bg">
 
@@ -79,7 +79,7 @@
                         </div>
                     </section>
                     
-                    <!--========== ISLANDS 3 ==========-->
+                    
                     <section class="islands swiper-slide">
                         <img src="assets/img/nagpatong.jpg" alt="" class="islands__bg">
 
@@ -92,8 +92,9 @@
                             </div> 
                         </div>
                     </section>
-
-
+                </div>
+            </div>
+            
             <!--========== CONTROLS ==========-->
             <div class="controls gallery-thumbs">
                 <div class="controls__container swiper-wrapper">
@@ -101,8 +102,9 @@
                     <img src="assets/img/manalmon.jpg" alt="" class="controls__img swiper-slide">
                     <img src="assets/img/nagpatong.jpg" alt="" class="controls__img swiper-slide">
                 </div>
-            </div>
+            </div>       
         </section>
+        </main>
 
         <!--Home Section Ends-->
 
@@ -354,7 +356,7 @@
             <div class="art">
                 <div class="content">
                     <section class="cont">
-                        <header>Laagta Travel and Tours</header>
+                        <header>LaagTa Travel and Tours</header>
                         <a href="#destinations">Destinations</a>
                         <a href="#about">About Us</a>
                         <a href="#reviews">Reviews</a>
@@ -413,7 +415,7 @@
         </footer>
 
         <!--Footer Section Ends-->
-        </main>
+        <!-- </main> -->
         <script src="assets/js/contact.js"></script>
 
         <!--========== JQUERY ==========-->
@@ -435,7 +437,7 @@
                 var $logo = $(".nav__logo");
                 var $toggle = $(".nav__toggle");
                 var $link = $(".nav__link");
-
+              
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
                 $logo.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
                 $toggle.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
@@ -446,7 +448,8 @@
                 var $ban = $('.islands__banner').height();
                 $con.height = $ban; 
                 });
-            });            
+            });         
+             
         </script>
     </body>
 </html>
