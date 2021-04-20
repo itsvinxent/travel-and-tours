@@ -381,7 +381,7 @@ right: 0;
 } 
 
 .destinations .card-container .cap {
-  height: 60%;
+  height: 50%;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -822,7 +822,7 @@ footer .content {
   max-width: 1080px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
   padding-bottom: 2rem;
 }
@@ -830,6 +830,12 @@ footer .content {
 footer header {
   font-size: 21px;
   padding-block: 16px;
+}
+
+footer header.hidden{
+  
+  padding-block: 16px;
+  opacity: 0;
 }
 
 footer .content .cont a {
@@ -899,9 +905,6 @@ footer .notice {
 /*========== MEDIA QUERIES ==========*/
 /* For small devices */
 @media screen and (max-width: 320px) {
-  .nav__logo {
-    padding-right: .5rem;
-  }
   .bd-container {
     margin-left: auto;
     margin-right: auto;
